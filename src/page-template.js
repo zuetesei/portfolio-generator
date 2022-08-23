@@ -1,4 +1,4 @@
-const generatePage = (userName, githubName) => {
+module.exports = (name, github) => {
     return `
     <!DOCTYPE html> 
     <html lang="en"> 
@@ -16,5 +16,3 @@ const generatePage = (userName, githubName) => {
     </html>
     `;
 };
-
-module.exports = generatePage;
